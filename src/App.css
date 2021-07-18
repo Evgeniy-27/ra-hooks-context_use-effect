@@ -1,0 +1,57 @@
+.App {
+  margin: 50px auto 0;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.user-details div {
+  padding: 10px;
+  border: 1px solid darkgray;
+  border-bottom: none;
+}
+
+.user-details div:first-child {
+  padding: 0;
+  border: none;
+}
+
+.user-details div:last-child {
+  border-bottom: 1px solid darkgray;
+}
+
+.user-details .user-name {
+  padding: 20px;
+}
+
+.users-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+
+.users-list li {
+  padding: 20px;
+  border: 1px solid darkgray;
+  border-bottom: none;
+  color: black;
+  background-color: #fff;
+}
+
+.users-list li:last-child {
+  border-bottom: 1px solid darkgray;
+}
+
+.users-list li:hover, .focus {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+
